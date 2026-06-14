@@ -68,6 +68,7 @@ body {
   top: 172px;
   left: 24px;
 }
+
 .container .main .todos .todo {
   width: 327px;
   height: 48px;
@@ -96,4 +97,42 @@ body {
   flex-direction: row;
   justify-content: space-between;
   flex: 1;
+}
+
+.container .footer .all-active-completed {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.19px;
+  width: 327px;
+  height: 48px;
+
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+
+  top: 475px;
+  left: 24px;
+
+  background-color: white;
+  color: #9495A5;
+
+  padding: 15px 80px;
+}
+
+.container .footer .drag-and-drop-area {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.19px;
+  text-align: center;
+  width: 327px;
+
+  display: flex;
+  position: absolute;
+
+  top: 545px;
+  left: 24px;
+  padding: 15px 80px;
 }

@@ -58,6 +58,16 @@ export default function App() {
             </div>
           </div>
         </main>
+        <footer className="footer">
+          <div className="all-active-completed">
+            <h6>All</h6>
+            <h6>Active</h6>
+            <h6>Completed</h6>
+          </div>
+          <div className="drag-and-drop-area">
+            <h6>Drag and drop to reorder list</h6>
+          </div>
+        </footer>
       </div>
     </>
   )
