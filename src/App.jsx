@@ -22,7 +22,7 @@ export default function App() {
         <main className="main">
           <div className="new-todo">
             <input type="radio" name="todo" value="newtodo" id="new-todo-radio" />
-            <label htmlFor='new-todo-radio'>Yeni Görev Oluştur</label>
+            <label htmlFor='new-todo-radio'>Create a new todo…</label>
           </div>
           <div className="todos">
             <div className="todo">
