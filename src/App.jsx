@@ -5,13 +5,16 @@ export default function App() {
 
   return (
     <>
-    <div className="container">
-      <img 
-        src={LightThemeMobileBackground} 
-        className='light-theme-mobile-background' 
-        alt="" 
-      />
-    </div>
+      <div className="container">
+        <header className="header">
+          <h1>TODO</h1>
+          <img
+            src={LightThemeMobileBackground}
+            className='light-theme-mobile-background'
+            alt=""
+          />
+        </header>
+      </div>
     </>
   )
 }

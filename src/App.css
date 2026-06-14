@@ -4,7 +4,23 @@
   box-sizing: border-box;
 }
 
-.container .light-theme-mobile-background {
+body {
+  font-family: Josefin Sans;
+}
+
+.container .header {
+  display: flex;
+  position: relative;
+}
+.container .header h1{
+  position: absolute;
+  top: 48px;
+  left: 26px;
+
+  color: white;
+  letter-spacing: 8px;
+}
+.container .header .light-theme-mobile-background {
   min-width: 375px;
   height: 200px;
 }
