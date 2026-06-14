@@ -52,8 +52,17 @@ body {
   gap: 12px;
   padding: 0 16px;
   border-radius: 5px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 
   display: flex;
   position: absolute;
+}
+
+.container .main .todos {
+  width: 180;
+  height: 12;
+  top: 3px;
+  left: 32px;
+  opacity: 1;
+
 }
