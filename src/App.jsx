@@ -1,4 +1,5 @@
 import LightThemeMobileBackground from './assets/img/light-theme-mobile-background.png'
+import SwitchingLightThemeDarkTheme from './assets/img/switching-light-theme-dark-theme.png'
 import './App.css'
 
 export default function App() {
@@ -7,7 +8,10 @@ export default function App() {
     <>
       <div className="container">
         <header className="header">
-          <h1>TODO</h1>
+          <div className="title-and-switch">
+            <h1>TODO</h1>
+            <img src={SwitchingLightThemeDarkTheme} alt="" />
+          </div>
           <img
             src={LightThemeMobileBackground}
             className='light-theme-mobile-background'
