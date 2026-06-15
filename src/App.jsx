@@ -1,5 +1,6 @@
 import LightThemeMobileBackground from './assets/img/light-theme-mobile-background.png'
 import LightThemeDesktopBackground from './assets/img/light-theme-desktop-background.png'
+import DarkThemeMobileBackground from './assets/img/dark-theme-mobile-background.png'
 import SwitchingLightThemeDarkTheme from './assets/img/switching-light-theme-dark-theme.png'
 import SwitchingDarkThemeLightTheme from './assets/img/switching-dark-theme-light-theme.png'
 import TodoDelete from './assets/img/icon-todo-delete.png'
@@ -32,24 +33,32 @@ export default function App() {
           <div className="title-and-switch">
             <h1>TODO</h1>
             {darkTheme ? (
-              <img 
-                src={SwitchingDarkThemeLightTheme} 
+              <img
+                src={SwitchingDarkThemeLightTheme}
                 onClick={toggleTheme}
                 alt=""
               />
             ) : (
-              <img 
-                src={SwitchingLightThemeDarkTheme} 
+              <img
+                src={SwitchingLightThemeDarkTheme}
                 onClick={toggleTheme}
                 alt=""
               />
             )}
           </div>
-          <img
-            src={LightThemeMobileBackground}
-            className='light-theme-mobile-background'
-            alt=""
-          />
+          {darkTheme ? (
+            <img
+              src={DarkThemeMobileBackground}
+              className='light-theme-mobile-background'
+              alt=""
+            />
+          ) : (
+            <img
+              src={LightThemeMobileBackground}
+              className='light-theme-mobile-background'
+              alt=""
+            />
+          )}
           <img
             src={LightThemeDesktopBackground}
             className='light-theme-desktop-background'
